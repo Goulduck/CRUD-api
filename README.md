@@ -64,7 +64,7 @@ npm start
 
 #### Editing User
 - Set request type to PUT
-- Create 3 'keys' of 'id', 'email', 'forename' and 'surname' and give them text values (id must be valid)
+- Create 4 'keys' of 'id', 'email', 'forename' and 'surname' and give them text values (id must be valid)
 - Click send
 ```js
 {
