@@ -17,7 +17,7 @@ exports.getUsers = function(req,res){
         if(err) return res.status(500).send(err)
         if(isEmptyObject(users)) return res.status(200).json({message: 'Users not found'})
         //If no errors, send them back to the client
-        return res.status(200).json(users)
+        return res.status(200).json({users: users})
     })
 }
 
