@@ -1,7 +1,7 @@
 let mongoose = require('mongoose');
 let User = require('../models/user')
 
-exports.createUser = function(req,res){
+exports.createUser = function(req, res){
     //Creates a new user
     var newUser = new User(req.body);
     //Save it into the DB.
@@ -11,7 +11,7 @@ exports.createUser = function(req,res){
     });
 }
 
-exports.getUsers = function(req,res){
+exports.getUsers = function(req, res){
     let query = User.find({})
     query.exec((err, users) => {
         if(err) return res.status(500).send(err)
