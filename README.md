@@ -104,3 +104,6 @@ Test coverage has been implemented. To run the unit tests, open the project loac
 npm run test
 </pre>
 All tests should pass! :)
+
+## Still to come...
+Looking to use validator (https://www.npmjs.com/package/validator) to validate values, such as isEmail etc.
