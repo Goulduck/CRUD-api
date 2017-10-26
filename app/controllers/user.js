@@ -5,9 +5,9 @@ exports.createUser = function(req,res){
     //Creates a new user
     var newUser = new User(req.body);
     //Save it into the DB.
-    newUser.save((err,user) => {
+    newUser.save((err, user) => {
         if (err) return res.status(500).send(err)
-        res.status(200).json({message: 'User successfully created!',user})
+        res.status(200).json({message: 'User successfully created!', user})
     });
 }
 
@@ -21,7 +21,7 @@ exports.getUsers = function(req,res){
     })
 }
 
-exports.updateUser = function(req,res){
+exports.updateUser = function(req, res){
     User.findById({_id: req.body.id}, (err, user) => {
         if(err) res.send(err);
         Object.assign(user, req.body).save((err, user) => {
@@ -31,7 +31,7 @@ exports.updateUser = function(req,res){
     });
 }
 
-exports.deleteUser = function(req,res){
+exports.deleteUser = function(req, res){
     var deleteQuery = {_id: req.body.id};
     User.remove(deleteQuery, (err, userToRemove) => {
         if (err) return res.status(500).send('Server error')
