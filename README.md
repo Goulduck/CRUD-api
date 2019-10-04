@@ -18,6 +18,7 @@ npm start
 
 - Open Postman
 - Copy and paste 'http://localhost:3001' into Postman request URL bar
+- Follow the instructions below or use this [postman collection](./test/CRUD-API.postman_collection.json)
 
 #### Creating User
 - Set request type to POST
@@ -99,11 +100,11 @@ npm start
 ```
 
 ## Unit testing
-Test coverage has been implemented. To run the unit tests, open the project loaction in your terminal and run:
+Test coverage has been implemented. To run the system tests, open the project's directory in your terminal and run:
 <pre>
 npm run test
 </pre>
-All tests should pass! :)
+All tests should pass! :smile:
 
 ## Still to come...
 Looking to use validator (https://www.npmjs.com/package/validator) to validate values, such as isEmail etc.
