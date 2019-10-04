@@ -18,6 +18,7 @@ npm start
 
 - Open Postman
 - Copy and paste 'http://localhost:3001' into Postman request URL bar
+- Follow the instructions below or use this [postman collection](./test/CRUD-API.postman_collection.json)
 
 #### Creating User
 - Set request type to POST
