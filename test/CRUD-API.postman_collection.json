@@ -1,5 +1,5 @@
 {
-	"info": {
+   "info": {
 		"_postman_id": "fac6958f-5fb4-49db-94ec-46a1a10bcdf8",
 		"name": "CRUD-API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
