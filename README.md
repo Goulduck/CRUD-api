@@ -99,11 +99,11 @@ npm start
 ```
 
 ## Unit testing
-Test coverage has been implemented. To run the unit tests, open the project loaction in your terminal and run:
+Test coverage has been implemented. To run the system tests, open the project's directory in your terminal and run:
 <pre>
 npm run test
 </pre>
-All tests should pass! :)
+All tests should pass! :smile:
 
 ## Still to come...
 Looking to use validator (https://www.npmjs.com/package/validator) to validate values, such as isEmail etc.
